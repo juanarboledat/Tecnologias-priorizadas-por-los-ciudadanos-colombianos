@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="1.0" htmlParse="false">
+
+     <!-- title of the study -->
+     <item id="studyTitle">Tecnologías priorizadas por los ciudadanos colombianos para ser financiadas con recursos públicos del sistema de salud: Un estudio de metodología Q</item>
+
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
+
+     <!-- shuffle cards (true|false)  -->
+     <item id="shuffleCards">true</item>
+
+     <!-- login required (true|false) -->
+     <item id="loginrequired">false</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword"></item>
+    <item id="partNameRequired">true</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
+
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">true</item>
+     <item id="showStep4">true</item>
+     <item id="showStep5">true</item>
+
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">true</item>
+
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+        <note bg="true">Todos los campos marcados con * son obligatorios</note>
+
+        <label>Edad*</label>
+        <note>Por favor escriba su año de nacimiento (YYYY, eg. 1980).</note>
+        <input type="text" required="true" maxlength="4" restricted="0-9"></input>
+
+        <label>Genero*</label>
+        <note>Por favor selecciones su genero</note>
+        <input type="radio" required="true">Masculino;Femenino;LGBTIQ+</input>
+
+        <label>Responda a las siguientes declaraciones</label>
+        <input type="rating2" required="false" scale="Yes;No">Ha estado usted hospitalizado en el último año.; Ha consultado al servicio de urgencias, ó ha tenido consulta médica programada en los últimos 6 meses.; Tiene un familiar de primer o segundo grado de consanguinidad o afinidad que sea trabajador de la salud. </input>
+         
+        <label>Responda a las siguientes declaraciones</label>
+        <input type="rating2" required="false" scale="Yes;No"> Tiene usted una condición crónica de salud, como Hipertensión arterial, Diabetes mellitus, Enfermedad pulmonar obstructiva crónica, Enfermedad cerebrovascular, etcetera.; Tiene usted un diagnóstico de una enfermedad huérfana.; Tiene usted historia de accidente de tránsito.; Tiene usted diagnóstico de cáncer. </input>
+         
+        <label>Responda a las siguientes declaraciones</label>
+        <input type="rating2" required="false" scale="Yes;No"> Es usted madre o padre de paciente menor de 18 años con alguna condicion anteriormente descrita. </input>
+         
+        <label>Responda a las siguientes declaraciones</label>
+        <input type="rating2" required="false" scale="Yes;No"> Tiene usted un título profesional en área de la salud con o sin especialidad  como medicina, enfermería, bacteriología, químicos farmacéuticos, fisioterapia, fonoaudiología, instrumentadores quirúrgicos, optometría, terapia respiratoria, odontología, nutrición y dietética, psicología o terapia ocupacional. </input>
+         
+        <label>Responda a las siguientes declaraciones</label>
+        <input type="rating2" required="false" scale="Yes;No"> Tiene usted un título de técnico o tecnólogo en área de la salud (auxiliar de enfermería, auxiliar en salud dental, tecnología en radiología e imágenes diagnósticas, regencia de farmacia, tecnología en salud ocupacional, tecnología en atención pre hospitalaria, tecnología en gestión de la seguridad y salud en el trabajo, tecnología en laboratorio dental. </input>
+         
+        <label>Responda a las siguientes declaraciones</label>
+        <input type="rating2" required="false" scale="Yes;No"> Usted ha estado a cargo o se ha encargado en los últimos 5 años del manejo estratégico de las instituciones que se refieren al ámbito de la salud, las cuales cobijan coberturas médicas en seguros, EPS, clínicas y hospitales. </input>
+         
+         <label>Responda a las siguientes declaraciones</label>
+        <input type="rating2" required="false" scale="Yes;No"> Es usted un funcionario público vigente del ministerio de salud u otras instituciones del gobierno nacional, secretarías de salud municipales y departamentales, gerentes o directores de EPS o IPS, o ha ocupado dichos cargos en los últimos 5 años. . </input>
+
+
+
+     </item>
+
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>
