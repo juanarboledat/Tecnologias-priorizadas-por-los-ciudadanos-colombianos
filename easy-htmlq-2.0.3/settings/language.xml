@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Continuar...</item>
+        <item id="btnclose">Cerrar</item>
+        <item id="btnHelp">¡Ayúdame!</item>
+        <item id="btnAgreement">De acuerdo</item>
+        <item id="btnNeutral">Neutral</item>
+        <item id="btnDisagreement">No estoy de acuerdo</item>
+        <item id="btnTransfer">Enviar datos</item>
+        <item id="btnExit">Salida</item>
+        <item id="selectItem">Por favor seleccione...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Tus respuestas se perderán.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Atrás</item>
+        <item id="fillInRequiredFields">Por favor, rellene todos los campos obligatorios</item>
+
+        <!-- errors -->
+        <item id="errorHead">Eror!</item>
+        <item id="errorWindowTooSmall">Maximice su navegador para usar esta aplicación.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">¡Bienvenido!</item>
+        <item id="welcomeText">Este proyecto busca analizar el tema de las prioridades de ciudadanos colombianos sobre tecnologías en salud que deberían financiarse con recursos públicos.{br}{br}{b}** Información importante **{/b}{br}¡Para esta encuesta necesitará tanto espacio de pantalla como sea posible!{br}{br}Si es necesario, por favor {b}MAXIMIZAR{/b} el tamaño de la ventana de su navegador, {b}{i}recargar{/i}{/b} esta página web y haga clic en el botón "Continuar" para iniciar la encuesta.</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Código de acceso</item>
+        <item id="loginText">Ingrese el código de acceso para esta encuesta.</item>
+        <item id="loginFormHeader">Código de acceso</item>
+        <item id="loginPartIdText">Su nombre o número de identificación de la encuesta</item>
+        <item id="loginNoInput">Introduzca el código de acceso.</item>
+        <item id="loginInvalidInput">Código de acceso inválido</item>
+        <item id="loginNoConnection">Falló la conexión al servidor. Inténtalo de nuevo.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introducción</item>
+        <item id="introText">Este estudio trata sobre las prioridades de ciudadanos colombianos acerca de las tecnologías en salud que deberían financiarse con recursos públicos.</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Paso 1 de 5</item>
+        <item id="step1Text">Lea las siguientes declaraciones con atención y divídalas en tres columnas: una columna para las declaraciones con las que tiende a no estar de acuerdo, una columna para las declaraciones con las que tiende a estar de acuerdo y una columna para el resto..{br}{br}Puede arrastrar las cartas a una de las tres columnas o {b}presione 1, 2, 3{/b} en tu teclado. Los cambios se pueden realizar más tarde.{br}{br}Si desea leer esta instrucción por segunda vez, presione el botón de ayuda en la esquina inferior izquierda.</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Paso 2 de 5</item>
+        <item id="step2Text">Tome las tarjetas de la columna "DE ACUERDO" y colóquelas en el lado derecho de la hoja de puntuación.{br}{br}A continuación, tome las tarjetas de la pila "DESACUERDO" y colóquelas en el lado izquierdo de la hoja de puntuación. Siga este procedimiento para todas las tarjetas de las pilas "DE ACUERDO" y "DESACUERDO".{br}{br}Finalmente, tome las tarjetas "NEUTRO" y colóquelas en las casillas restantes abiertas de la hoja de puntuación.</item>
+        <item id="step2CondOfInstruc">Ordene las tarjetas de acuerdo con su experiencia</item>
+        
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Paso 3 de 5</item>
+        <item id="step3Text">Ahora ha colocado todas las cartas en la hoja de puntuación. Revise su distribución una vez más y cambie las posiciones de las tarjetas si lo desea.</item>
+        <item id="step3CondOfInstruc">Ordene las tarjetas de acuerdo con su experiencia</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Paso 4 de 5</item>
+        <item id="step4Text">Explique por qué está más de acuerdo o más en desacuerdo con las siguientes afirmaciones que ha colocado debajo de "6" o "-6".</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Paso 5 de 5</item>
+        <item id="step5Text">Por último, responda las siguientes preguntas sobre sus antecedentes.</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Enviar datos</item>
+        <item id="transferText">Ha terminado la encuesta. Envíe sus datos ahora.</item>
+        <item id="transferFailed">El envío de datos falló. Inténtalo de nuevo.</item>
+        <item id="transferOk">¡Gracias por usar Easy HTMLQ!{br}{br}Ahora puede cerrar la ventana de su navegador..</item>   
+   </language>
