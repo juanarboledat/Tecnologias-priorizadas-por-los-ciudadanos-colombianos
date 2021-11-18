@@ -31,7 +31,7 @@
      <item id="showStep5">true</item>
 
      <!-- HtmlQ only: disable the in-window back button -->
-     <item id="disableBackButton">true</item>
+     <item id="disableBackButton">false</item>
 
      <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
      <!-- add label: <label>[STRING]</label> -->
